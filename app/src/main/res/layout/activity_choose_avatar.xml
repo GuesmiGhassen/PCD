@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6E0EF"
+    android:orientation="vertical"
+    tools:context=".ChooseAvatar">
+
+    <Button
+        android:id="@+id/skipbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:drawableRight="@drawable/baseline_skip_next_24"
+        android:text="skip"
+        app:backgroundTint="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+         />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="Select Your Avatar"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#2A4E62"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="144dp"
+        android:layout_height="259dp"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/alex" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="164dp"
+        android:layout_height="307dp"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="34dp"
+        android:src="@drawable/mia" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:layout_alignStart="@id/imageView1"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="-27dp"
+        android:text="Alex"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#001C2F"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="51dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/imageView2"
+        android:layout_alignStart="@id/imageView2"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="-58dp"
+        android:gravity="center"
+        android:text="Mia"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#001C2F"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+
+        android:text="Let your favorite avatar accompany you on your learning journey and team up for perfect signed translations!"
+        android:textColor="#001C2F" />
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "457578528591",
+    "firebase_url": "https://loginregister-5d889-default-rtdb.firebaseio.com",
+    "project_id": "loginregister-5d889",
+    "storage_bucket": "loginregister-5d889.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457578528591:android:80598811a2008e10948f3a",
+        "android_client_info": {
+          "package_name": "com.example.signyourway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZXs6XF4RZsWfEp0oJ7MHG5xR0_DoA9YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
