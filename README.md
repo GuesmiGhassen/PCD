@@ -7,7 +7,7 @@ Sign Your Way is a mobile application designed to facilitate communication throu
 
 Watch the demo video below to see the SignLanguageApp in action:
 
-Demo/Demo.mp4
+[Demo/Demo.mp4](https://drive.google.com/file/d/1VCdSHWTcaFGoEpvJfgm4RmiEbwFlHP7_/view?usp=sharing)
 ---
 
 Please note that the video quality may vary depending on your network speed and the viewer's device.
