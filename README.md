@@ -3,6 +3,16 @@
 
 Sign Your Way is a mobile application designed to facilitate communication through sign language recognition. Developed using **Java** and **Android Studio**, this app leverages a sophisticated machine learning model trained specifically for interpreting sign language into text. The goal is to bridge the gap between individuals who communicate through sign language and those who do not, making everyday interactions more accessible.
 
+## Demo Video
+
+Watch the demo video below to see the SignLanguageApp in action:
+
+<iframe src="./Demo/Demo.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+Please note that the video quality may vary depending on your network speed and the viewer's device.
+
 ## Features
 
 - **Sign to Text Translation:** Instantly translates sign language gestures into text using our pretrained model, facilitating seamless communication.
